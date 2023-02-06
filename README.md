@@ -6,6 +6,9 @@ This app is used for the rush/pledge process, events tracking, and for members t
 
 ## Documentation
 
+### Required Dependencies
+
+When you clone the project, run `npm install` to ensure that you have all required dependencies. This project uses Expo and Babel as its build tools, [Recoil]() to manage state, and [React Native Navigation]() to manage navigation between screens.  
 
 ## Contribution Rules
 
