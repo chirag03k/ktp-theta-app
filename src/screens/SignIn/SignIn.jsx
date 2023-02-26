@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Button} from 'react-native';
+import { NicholasPage } from '../Nicholas';
 import { NavigationContainer } from '@react-navigation/native';
 
 export const SignIn = ({ navigation }) => {
@@ -9,6 +10,10 @@ export const SignIn = ({ navigation }) => {
             <Button
             title="Create an account" 
             onPress={() => navigation.push('SignUp')}
+            />
+            <Button
+            title="Go to Nicholas's Screen" 
+            onPress={() => navigation.push('NicholasPage')}
             />
         </View>
     )
