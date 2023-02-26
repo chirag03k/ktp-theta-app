@@ -10,6 +10,10 @@ export const SignIn = ({ navigation }) => {
             title="Create an account" 
             onPress={() => navigation.push('SignUp')}
             />
+            <Button
+            title="Go to DavidScreen"
+            onPress={() => navigation.push('DavidScreen')}
+            />
         </View>
     )
     
