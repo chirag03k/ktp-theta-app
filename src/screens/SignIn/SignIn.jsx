@@ -10,6 +10,12 @@ export const SignIn = ({ navigation }) => {
             title="Create an account" 
             onPress={() => navigation.push('SignUp')}
             />
+            <Button
+            title="Go to Zelia's Screen"
+            onPress = {
+                () => {navigation.push("ZeliaScreen")}
+            }
+            />
         </View>
     )
     
